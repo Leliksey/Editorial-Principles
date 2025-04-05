@@ -136,6 +136,11 @@ button {
     background-color: #0d0b6a;
     padding: 16px 0;
 }
+@media (min-width: 1280px) {
+    .header {
+        padding: 20px 0;
+    }
+}
 .header__content {
     display: flex;
     align-items: center;
@@ -187,6 +192,7 @@ button {
         transform: translateX(0);
         background: none;
         max-width: 100%;
+        padding: 0;
     }
 }
 .menu__wrapper {
