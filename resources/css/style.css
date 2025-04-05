@@ -430,9 +430,10 @@ button {
 .whyImportant__starter {
     display: flex;
     align-items: center;
-    background-size: cover;
+    background-size: cover; 
     padding: 0 15px 0 10px;
     justify-content: space-evenly;
+    border-radius: 16px 16px 0 0;
 }
 @media (min-width: 375px) {
     .whyImportant__starter {
