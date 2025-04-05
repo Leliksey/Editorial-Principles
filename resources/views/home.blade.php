@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-JZtQVtoI.css') }}">
     <title>Главная</title>
 </head>
 <body>
@@ -127,5 +128,6 @@
             </div>
         </div>
     </section>
+    <script src="{{ asset('build/assets/app-FLp7msaE.js') }}"></script>
 </body>
 </html>
