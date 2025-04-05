@@ -1,12 +1,15 @@
-document.querySelectorAll('.btn_more').forEach(button => {
-    button.addEventListener('click', function() {
-        const desc = this.closest('.main__desc-wrapper');
-        desc.classList.toggle('expanded');
-        this.textContent = desc.classList.contains('expanded') 
-            ? 'Show less' 
-            : 'Show more';
+window.onload = function() {
+    document.querySelectorAll('.btn_more').forEach(button => {
+        button.addEventListener('click', function() {
+            const desc = this.closest('.main__desc-wrapper');
+            desc.classList.toggle('expanded');
+            this.textContent = desc.classList.contains('expanded') 
+                ? 'Show less' 
+                : 'Show more';
+        });
     });
-});
+}
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
