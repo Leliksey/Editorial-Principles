@@ -15,6 +15,8 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Копируем Laravel-проект в /var/www/html
 COPY . /var/www/html
 
+COPY .env /var/www/html/.env
+
 # Устанавливаем права
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/storage
